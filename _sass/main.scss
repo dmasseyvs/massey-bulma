@@ -5,7 +5,7 @@
 // You can easily customize Bulma with your own variables.
 // Just uncomment the following block to see the result.
 
-/*
+
 // 1. Import the initial variables
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 
@@ -15,19 +15,42 @@ $blue: #06bcef;
 // Add pink and its invert
 $pink: #ff8080;
 $pink-invert: #fff;
-// Update the sans-serif font family
+$color1: #1985A1;
+$color2: #4C5C68;
+$color3: #46494C;
+$color4: #C5C3C6;
+$color5: #DCDCDD;
+
+/* SCSS HEX */
+$gainsboro: #dcdcddff;
+$silver: #c5c3c6ff;
+$davys-grey: #46494cff;
+$black-coral: #4c5c68ff;
+$blue-munsell: #1985a1ff;
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #dcdcddff, #c5c3c6ff, #46494cff, #4c5c68ff, #1985a1ff);
+$gradient-right: linear-gradient(90deg, #dcdcddff, #c5c3c6ff, #46494cff, #4c5c68ff, #1985a1ff);
+$gradient-bottom: linear-gradient(180deg, #dcdcddff, #c5c3c6ff, #46494cff, #4c5c68ff, #1985a1ff);
+$gradient-left: linear-gradient(270deg, #dcdcddff, #c5c3c6ff, #46494cff, #4c5c68ff, #1985a1ff);
+$gradient-top-right: linear-gradient(45deg, #dcdcddff, #c5c3c6ff, #46494cff, #4c5c68ff, #1985a1ff);
+$gradient-bottom-right: linear-gradient(135deg, #dcdcddff, #c5c3c6ff, #46494cff, #4c5c68ff, #1985a1ff);
+$gradient-top-left: linear-gradient(225deg, #dcdcddff, #c5c3c6ff, #46494cff, #4c5c68ff, #1985a1ff);
+$gradient-bottom-left: linear-gradient(315deg, #dcdcddff, #c5c3c6ff, #46494cff, #4c5c68ff, #1985a1ff);
+$gradient-radial: radial-gradient(#dcdcddff, #c5c3c6ff, #46494cff, #4c5c68ff, #1985a1ff);
+
+  // Update the sans-serif font family
 $family-sans-serif: "Helvetica", "Arial", sans-serif;
 
 // 3. Set the derived variables
 // Use the new pink as the primary color
-$primary: $pink;
-$primary-invert: $pink-invert;
+
+$primary: $blue-munsell;
+$primary-dark: $blue-munsell;
+$primary-light: $gainsboro;
+$primary-invert: $white;
 
 // 4. Import the rest of Bulma
-*/
+
 
 @import "../node_modules/bulma/bulma";
-
-html {
-  background-color: $green;
-}

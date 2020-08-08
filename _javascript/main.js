@@ -1,3 +1,1 @@
-document.addEventListener('DOMContentLoaded', () => {
-  console.log('Hello Bulma!');
-});
+import Navbar from '@vizuaalog/bulmajs/src/plugins/Navbar';
