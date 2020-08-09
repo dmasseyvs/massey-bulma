@@ -17,37 +17,70 @@ $pink: #ff8080;
 $pink-invert: #fff;
 
 
+///* SCSS HEX */
+//$imperial-red: #e63946ff;
+//$honeydew: #f1faeeff;
+//$powder-blue: #a8dadcff;
+//$celadon-blue: #457b9dff;
+//$prussian-blue: #1d3557ff;
+//
+///* SCSS Gradient */
+//$gradient-top: linear-gradient(0deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
+//$gradient-right: linear-gradient(90deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
+//$gradient-bottom: linear-gradient(180deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
+//$gradient-left: linear-gradient(270deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
+//$gradient-top-right: linear-gradient(45deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
+//$gradient-bottom-right: linear-gradient(135deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
+//$gradient-top-left: linear-gradient(225deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
+//$gradient-bottom-left: linear-gradient(315deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
+//$gradient-radial: radial-gradient(#e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
+//
+//$color1: $imperial-red;
+//$color2: $honeydew;
+//$color3: $powder-blue;
+//$color4: $celadon-blue;
+//$color5: $prussian-blue;
+//
+///* SCSS HEX */
+//$ming: #006d77ff;
+//$middle-blue-green: #83c5beff;
+//$alice-blue: #edf6f9ff;
+//$unbleached-silk: #ffddd2ff;
+//$dark-salmon: #e29578ff;
+//
+///* SCSS Gradient */
+//$gradient-top: linear-gradient(0deg, #006d77ff, #83c5beff, #edf6f9ff, #ffddd2ff, #e29578ff);
+//$gradient-right: linear-gradient(90deg, #006d77ff, #83c5beff, #edf6f9ff, #ffddd2ff, #e29578ff);
+//$gradient-bottom: linear-gradient(180deg, #006d77ff, #83c5beff, #edf6f9ff, #ffddd2ff, #e29578ff);
+//$gradient-left: linear-gradient(270deg, #006d77ff, #83c5beff, #edf6f9ff, #ffddd2ff, #e29578ff);
+//$gradient-top-right: linear-gradient(45deg, #006d77ff, #83c5beff, #edf6f9ff, #ffddd2ff, #e29578ff);
+//$gradient-bottom-right: linear-gradient(135deg, #006d77ff, #83c5beff, #edf6f9ff, #ffddd2ff, #e29578ff);
+//$gradient-top-left: linear-gradient(225deg, #006d77ff, #83c5beff, #edf6f9ff, #ffddd2ff, #e29578ff);
+//$gradient-bottom-left: linear-gradient(315deg, #006d77ff, #83c5beff, #edf6f9ff, #ffddd2ff, #e29578ff);
+//$gradient-radial: radial-gradient(#006d77ff, #83c5beff, #edf6f9ff, #ffddd2ff, #e29578ff);
+
+
 /* SCSS HEX */
-$imperial-red: #e63946ff;
-$honeydew: #f1faeeff;
-$powder-blue: #a8dadcff;
-$celadon-blue: #457b9dff;
-$prussian-blue: #1d3557ff;
+$glossy-grape: #9c89b8ff;
+$kobi: #f0a6caff;
+$pink-lavender: #efc3e6ff;
+$lavender-blush: #f0e6efff;
+$periwinkle-crayola: #b8beddff;
 
-/* SCSS Gradient */
-$gradient-top: linear-gradient(0deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
-$gradient-right: linear-gradient(90deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
-$gradient-bottom: linear-gradient(180deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
-$gradient-left: linear-gradient(270deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
-$gradient-top-right: linear-gradient(45deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
-$gradient-bottom-right: linear-gradient(135deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
-$gradient-top-left: linear-gradient(225deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
-$gradient-bottom-left: linear-gradient(315deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
-$gradient-radial: radial-gradient(#e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
+$color1: $glossy-grape;
+$color2: $kobi;
+$color3: $pink-lavender;
+$color4: $lavender-blush;
+$color5: $periwinkle-crayola;
 
-$color1: $imperial-red;
-$color2: $honeydew;
-$color3: $powder-blue;
-$color4: $celadon-blue;
-$color5: $prussian-blue;
-
-//Color pallete
-$primary: $color3;
-$primary-dark: $color5;
+//Colour Pallete
+$primary: $color1;
+$primary-dark: $color1;
 $primary-light: $color2;
-$light: $color2;
-$primary-invert: $color5;
+$light: $color3;
+$primary-invert: $color4;
 $success: $color5;
+
 
 // Font Families
 $family-sans-serif: 'Roboto', sans-serif;
@@ -55,25 +88,12 @@ $family-primary: 'Righteous', cursive;
 $family-secondary: 'Roboto', sans-serif;
 //$family-code: ;
 
-.top-nav {
-  .level {
-    .level-left {
-      .logo {
-        color: $primary-dark;
-        font-size: 3.5rem;
-      }
-    }
-    a {
-      color: $primary-invert;
-    }
-    .button {
-      color: $primary-light;
-    }
-  }
+.hero {
+  background: $primary-light;
 }
-
-
-
+.footer {
+  background: $primary-invert;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@400;700&display=swap');
 // 4. Import the rest of Bulma
