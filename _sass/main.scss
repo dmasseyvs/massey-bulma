@@ -15,41 +15,67 @@ $blue: #06bcef;
 // Add pink and its invert
 $pink: #ff8080;
 $pink-invert: #fff;
-$color1: #1985A1;
-$color2: #4C5C68;
-$color3: #46494C;
-$color4: #C5C3C6;
-$color5: #DCDCDD;
+
 
 /* SCSS HEX */
-$gainsboro: #dcdcddff;
-$silver: #c5c3c6ff;
-$davys-grey: #46494cff;
-$black-coral: #4c5c68ff;
-$blue-munsell: #1985a1ff;
+$imperial-red: #e63946ff;
+$honeydew: #f1faeeff;
+$powder-blue: #a8dadcff;
+$celadon-blue: #457b9dff;
+$prussian-blue: #1d3557ff;
 
 /* SCSS Gradient */
-$gradient-top: linear-gradient(0deg, #dcdcddff, #c5c3c6ff, #46494cff, #4c5c68ff, #1985a1ff);
-$gradient-right: linear-gradient(90deg, #dcdcddff, #c5c3c6ff, #46494cff, #4c5c68ff, #1985a1ff);
-$gradient-bottom: linear-gradient(180deg, #dcdcddff, #c5c3c6ff, #46494cff, #4c5c68ff, #1985a1ff);
-$gradient-left: linear-gradient(270deg, #dcdcddff, #c5c3c6ff, #46494cff, #4c5c68ff, #1985a1ff);
-$gradient-top-right: linear-gradient(45deg, #dcdcddff, #c5c3c6ff, #46494cff, #4c5c68ff, #1985a1ff);
-$gradient-bottom-right: linear-gradient(135deg, #dcdcddff, #c5c3c6ff, #46494cff, #4c5c68ff, #1985a1ff);
-$gradient-top-left: linear-gradient(225deg, #dcdcddff, #c5c3c6ff, #46494cff, #4c5c68ff, #1985a1ff);
-$gradient-bottom-left: linear-gradient(315deg, #dcdcddff, #c5c3c6ff, #46494cff, #4c5c68ff, #1985a1ff);
-$gradient-radial: radial-gradient(#dcdcddff, #c5c3c6ff, #46494cff, #4c5c68ff, #1985a1ff);
+$gradient-top: linear-gradient(0deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
+$gradient-right: linear-gradient(90deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
+$gradient-bottom: linear-gradient(180deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
+$gradient-left: linear-gradient(270deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
+$gradient-top-right: linear-gradient(45deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
+$gradient-bottom-right: linear-gradient(135deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
+$gradient-top-left: linear-gradient(225deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
+$gradient-bottom-left: linear-gradient(315deg, #e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
+$gradient-radial: radial-gradient(#e63946ff, #f1faeeff, #a8dadcff, #457b9dff, #1d3557ff);
 
-  // Update the sans-serif font family
-$family-sans-serif: "Helvetica", "Arial", sans-serif;
+$color1: $imperial-red;
+$color2: $honeydew;
+$color3: $powder-blue;
+$color4: $celadon-blue;
+$color5: $prussian-blue;
 
-// 3. Set the derived variables
-// Use the new pink as the primary color
+//Color pallete
+$primary: $color3;
+$primary-dark: $color5;
+$primary-light: $color2;
+$light: $color2;
+$primary-invert: $color5;
+$success: $color5;
 
-$primary: $blue-munsell;
-$primary-dark: $blue-munsell;
-$primary-light: $gainsboro;
-$primary-invert: $white;
+// Font Families
+$family-sans-serif: 'Roboto', sans-serif;
+$family-primary: 'Righteous', cursive;
+$family-secondary: 'Roboto', sans-serif;
+//$family-code: ;
 
+.top-nav {
+  .level {
+    .level-left {
+      .logo {
+        color: $primary-dark;
+        font-size: 3.5rem;
+      }
+    }
+    a {
+      color: $primary-invert;
+    }
+    .button {
+      color: $primary-light;
+    }
+  }
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@400;700&display=swap');
 // 4. Import the rest of Bulma
 
 
