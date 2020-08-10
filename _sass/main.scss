@@ -97,6 +97,5 @@ $family-secondary: 'Roboto', sans-serif;
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@400;700&display=swap');
 // 4. Import the rest of Bulma
-
-
 @import "../node_modules/bulma/bulma";
+@import "../node_modules/bulma-timeline/src/sass/index.sass";

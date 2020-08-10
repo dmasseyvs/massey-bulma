@@ -69,6 +69,7 @@
   },
   "version": "0.0.4",
   "dependencies": {
-    "@vizuaalog/bulmajs": "^0.11.0"
+    "@vizuaalog/bulmajs": "^0.11.0",
+    "bulma-timeline": "^3.0.4"
   }
 }
